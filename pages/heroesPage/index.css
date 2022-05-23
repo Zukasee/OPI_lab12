@@ -1,0 +1,214 @@
+body {
+   background-image: url(../../fon3.jpg);
+   background-size: 100%;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+hr {
+   margin: 0 auto;
+   border-color: #3d5e86;
+   width: auto;
+   height: 3px;
+}
+.top {
+   display: flex;
+   list-style-type: none;
+}
+.top > li {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.top > li > a {
+   text-decoration: none;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 26px;
+   color: #d2ceff;
+}
+.iconka-top {
+   margin-left: 80px;
+   height: 75px;
+   width: 80px;
+}
+.iconka-head {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+nav {
+   display: flex;
+}
+
+.osnova {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2.5%;
+   width: 1000px;
+   background-color: rgba(0, 0, 0, 0.434);
+   box-shadow: 3px 3px 8px rgb(25, 25, 25);
+   /*background: linear-gradient(to right, rgba(47, 85, 143, 0.105), rgba(0, 0, 0, 0.105));
+	background: linear-gradient(to bottom, hsla(216, 51%, 37%, 0.112), #00000000);*/
+}
+h3 {
+   font-size: 42px;
+   color: lightgray;
+   text-align: center;
+   padding-top: 15px;
+}
+h1 {
+   font-size: 20px;
+   color: lightgray;
+   text-align: center;
+   padding-left: 10%;
+   padding-right: 10%;
+   font-weight: normal;
+}
+.centr {
+   background-color: black;
+   width: 870px;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 3px 3px 8px 1rgb (25, 25, 25);
+}
+.sila,
+.agility,
+.intelligence {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding-right: 3%;
+   padding-left: 3%;
+   margin-bottom: 60px;
+}
+.hero {
+   height: 75px;
+   width: 110px;
+   border: 1px solid gray;
+   margin-left: 0.6%;
+   margin-right: 0.6%;
+   margin-top: 0.9%;
+   margin-bottom: 0.9%;
+   position: relative;
+   text-align: center;
+}
+.hero:hover {
+   transform: scale(1.2);
+   box-shadow: 0px 5px 8px grey;
+}
+img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.atributi {
+   display: flex;
+   justify-content: center;
+}
+.atribut {
+   height: 50px;
+   width: 50px;
+   padding-left: 6px;
+   padding-right: 6px;
+   scroll-behavior: smooth;
+}
+.text {
+   color: white;
+   position: absolute;
+   top: 59px;
+   opacity: 0.45;
+}
+.hero:hover > .text {
+   opacity: 1;
+   background-color: rgba(0, 0, 0, 0.65);
+   width: 110px;
+   height: 17px;
+}
+.bigtext {
+   font-size: 13px;
+   color: white;
+   position: absolute;
+   top: 62.5px;
+   opacity: 0.45;
+}
+.hero:hover > .bigtext {
+   opacity: 1;
+   background-color: rgba(0, 0, 0, 0.65);
+   width: 110px;
+   height: 14px;
+}
+.three_refernce {
+   z-index: 10;
+   cursor: pointer;
+}
+.two_refernce {
+   z-index: 10;
+   cursor: pointer;
+}
+.one_refernce {
+   cursor: pointer;
+   z-index: 10;
+}
+
+@media (max-width: 1000px) {
+   body {
+      background-image: url(../../mobile_fonn.jpg);
+      background-size: 100%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+   }
+   .top > li > a {
+      text-decoration: none;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 44px;
+      color: #d2ceff;
+   }
+   .iconka-top {
+      margin-left: 80px;
+      height: 100px;
+      width: 110px;
+   }
+
+   .osnova {
+      width: 96%;
+   }
+   .centr {
+      width: 94%;
+   }
+   .hero {
+      height: 110px;
+      width: 230px;
+      border: 1px solid gray;
+      margin-left: 1.1%;
+      margin-right: 1.1%;
+      margin-top: 1.3%;
+      margin-bottom: 1.3%;
+      position: relative;
+      text-align: center;
+   }
+   h1 {
+      font-size: 15px;
+   }
+   .text {
+      top: 77px;
+      font-size: 30px;
+      opacity: 0.53;
+   }
+   .bigtext {
+      top: 82px;
+      font-size: 25px;
+      opacity: 0.53;
+   }
+   .hero:hover > .text {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.65);
+      width: 230px;
+      height: 35px;
+   }
+   .hero:hover > .bigtext {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.65);
+      width: 230px;
+      height: 28px;
+   }
+}
